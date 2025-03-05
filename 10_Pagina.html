@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+        }
+        h1 img {
+            width: 50px;
+            margin-right: 10px;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        <img src="data:image/jpeg;base64,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" alt="Logo">
+        Recetas.com
+    </h1>
+
+    <p>
+        <a href="#">Recetas Principales</a> | <a href="#">Postres Latinos</a>
+    </p>
+
+    <p>Bienvenido a nuestro sitio web sobre gastronomía latina, te invitamos a preparar nuestras recetas.</p>
+
+    <h2>Nuevas Recetas</h2>
+
+    <p class="bold">Arroz Criollo</p>
+    
+    <p>Tiempo de preparación: <span class="bold">45 minutos</span> | Número de porciones: <span class="bold">4</span></p>
+
+    <h3>Ingredientes</h3>
+    <ul>
+        <li>Salsa de tomate</li>
+        <li>2 cucharadas de aceite (14gr)</li>
+        <li>1 cebolla larga picada (45gr)</li>
+        <li>2 dientes de ajo finamente picado (3gr)</li>
+        <li>1 pimentón rojo picado en cuadritos (60gr)</li>
+        <li>1 taza de arroz blanco (225gr)</li>
+        <li>1 taza de maíz desgranado (79gr)</li>
+        <li>150gr de pechuga de pollo cocinado y desmechado</li>
+        <li>Sal al gusto</li>
+    </ul>
+
+    <h3>Preparación</h3>
+    <ol>
+        <li>Calentar en una olla el aceite, sofreír la cebolla junto con el ajo y el pimentón por 3 minutos.</li>
+        <li>Adicionar el arroz y continuar sofriendo para que dore.</li>
+        <li>Agregar el pollo, el maíz desgranado y las verduras.</li>
+        <li>Mezclar todo, rectificar la sal y dejar cocinar hasta que seque.</li>
+        <li>Bajar el fuego, tapar la olla y continuar la cocción por 25 minutos más.</li>
+    </ol>
+
+    <p>Esta rica receta fue proporcionada por Maria Paula.</p>
+
+</body>
+</html>
